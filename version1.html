@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+
+<!-- This is a comment. -->
+<!--Comments are for you, and do not affect the content of your website! -->
+<!--Comments can say whatever you would like-->
+
+<!-- Feel free to play with the code below to see what happens to your web page! --> 
+<!-- To run this code and see your web page on the internet, do the following: -->
+<!-- 1. Save this file as whatever you would name it, but with the ".html" extension at the end.
+    2. Then go to the folder on your computer where you saved your html file. 
+    Right click on your html file and click on the option that says "Open in Browser" 
+    3. You should then see your HTML file render in your browser. -->
+
+<html>
+  <title>
+     Website Title
+  </title>
+  
+  <head>
+    <h1> This is an h1 tag. It is the largest header tag available. </h1>
+    <h2> This is an h2 tatg. It is the second largest header tag available. </h2>
+    <h3> This is an h3 tag. It is the third largest header tag available.  They continue shrinking all the way down to h6</h3>
+    <h4> This is an h4 tag. These h1 tags can be placed anywhere on your web page, even in the body! </h4>
+    <h5> Almost there, this is an h5 tag. </h5>
+    <h6> This is an h6 tag. This is the smallest headedr tag in HTMTL. </h6>
+  </head>
+  
+  <body>
+    <div> 
+      <p> To any text, you can choose to bold it or italicize or underline it. Here's how: </p>
+      <p> <b> This text is bold. </b> <p>
+      <p> <i> This text is italicized.</i></p> 
+      <p> <strong> This text is strong </strong></p> 
+      <p> <em> This text is emphasized </em></p>
+      <p> <u> This text is underlined </u></p>
+      <p> The word <mark> potatoe </mark> is marked </p>
+      <p> The word <del> tomatoe </del> is crossed out. </p>
+      <p> The word <sub> pajamas</sub> is subscripted. </p>
+      <p> The word <sup> bananas </sup> is superscripted. </p>
+      
+  
+    </div>
+    
+    <!--Lists-->
+    <p>Items in an unordered list:</p> 
+    <ul>
+      <li> This is an item in an unordered  list</li>
+      <li> This is another item in the list</li>
+      <li> Using the ul tag allows you to make a list of bullet points</li>
+    </ul> 
+    
+    <p>tems in an ordered list:</p>
+    <ol>
+      <li> This is an item in an ordered list</li>
+      <li> This is another item in an ordered list</li>
+      <li> These list items are numbered</li>
+    </ol>
+    
+    <div>
+      <!-- This is a div! div tags can be used to separate your html into sections-->
+      <p> This is a paragraph inside a div. p tags can be used to display normal text</p>
+    </div>
+    
+    <div>
+      <p>Links:</p>
+      <a href="http://pollard.needham.k12.ma.us/main/"> This is a link! </a>
+      Try clicking on the link in your browser. You can change the link in the tag after "href=" to whatever page you want to be redirected to. <br>
+      Try changing the words of the link and making it take you to a new website. 
+    </div>
+    
+    <div>
+      <p>Images:
+      Now that you know how to do links, images will be easy!</p>
+      <div>
+        <img src="https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg"  style="width:500px;"> 
+      </div>
+     <br>
+   
+     <p>Follow these steps to include an image from somewhere else on the internet on your website: </p>
+        <ol>
+          <li>Find an image you like</li>
+          <li>Right click the image</li>
+          <li>Select "Copy image address" (or image source depending on your browser)</li>
+          <li>Paste the link to your image into the "" marks after src= in the image tag as shown above</li>
+        </ol>
+        <!-- For example: <img src="linktoimagehere.png"> -->
+      
+    </div>
+    
+    <div> 
+      <h3> Tables </h3>
+      <p> What if we want to make a table of all of our friend's phone numbers? </p>
+        Here is how you make a table: 
+        <!-- This table wil be 50% of the normal size. You can also change the size of to be in pixels like so: style = "width: 50px". You can also set the height of the table in this way. Why don't you try playing around with this?--> 
+        <table style = "width: 50%"> 
+          <tr> 
+            This is a table row inside the table. 
+            <td> This is a table data cell inside the table. Columns do not exist in HTML. Instead, you have to make a row (tr) with as many data cells (td)s as you would like columns. </td>
+            <td> This is another table data cell. See how this table data cell appears like a second column? <td>
+          </tr>
+          <tr> 
+            <td> <b> My Friend</b> </td>
+            <td> <b> Their Phone Number</b></td>
+          </tr>
+          <tr> 
+            <td> Brenna </td>
+            <td> (617)-957-8555 </td>
+          </tr>
+          <tr> 
+            <td> My Mom</td>
+            <td> (713)-816-9983 </td>
+          </tr>
+        </table>
+    </div>
+    
+    <div> 
+      <h3> Buttons and Alerts</h3>
+      <p> What if we want to make a button that produces an alert on your screen whenever you press it? Here's how! We can make the alert using javascript, the more complex language of the web. </p>
+      <button type = "button" onClick = "alert ('Hey, you clicked me!')"> Press me!</button>
+    </div>
+    
+  </body>
+</html>
